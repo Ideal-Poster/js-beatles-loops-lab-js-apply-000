@@ -18,6 +18,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
+  if(number > 15) number = number - 15;
   var i = 0;
   var array = [];
   do {
@@ -26,3 +27,4 @@ function iLoveTheBeatles(number) {
   } while( i < number )
   return array;
 }
+
